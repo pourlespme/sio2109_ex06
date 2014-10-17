@@ -1,5 +1,3 @@
-
-
 import 'functions_ex06.dart';
 
  //ex06 no. 1
@@ -21,20 +19,21 @@ differenceDates(today, anotherDay);
 
 
 // no. 3
- {
+ 
   List noteEnChiffre = [96,91,85,78, 65, 59];
   var noteEnLettre;
   print('Question 3 : La conversion de notes numériques en lettres.');
   for (var lettre in noteEnChiffre) {
     noteEnLettre = notation(lettre);
     print('Un pointage de $lettre = $noteEnLettre en notation');
-  
+  }
+
   
  
 	
-//No. 4
-  {
- List classement = ['Jean', 'Johnatan', 'Emmanuel', 'Laurence', 'Marie', 'Alexandre', 'Catherine', 'Sophie', 'Ludovic'];
+//No. 4  //Je ne trouve pas mon erreur pour les lignes 37 et 50... 
+  
+ List classement = ['Mario', 'Michel', 'Emmanuel', 'Laurence', 'Marie', 'Alexandre', 'Catherine', 'Sophie', 'Ludovic'];
  print('Voici une liste de nom : $classement');
  List resultList = getThreeLists(classement);
  print('nom de moins de huit lettres:${resultList.elementAt(0).toString()}');
@@ -42,8 +41,9 @@ differenceDates(today, anotherDay);
  print('nom de plus de huit lettres:${resultList.elementAt(2).toString()}');
  print('');
 
-  }
+  
 
+  // No. 5
     List playersName = [['Malkin', 'Crosby'], ['Souray', 'Perry'], ['Karlsson', 'Phillips'], ['Johnson', 'Dubinsky'], ['Luongo', 'Hayes'], ['Tavares', 'Vanek']];
     List clubsName = ['Penguins', 'Ducks', 'Senators', 'Blue Jackets', 'Panthers', 'Islanders'];
     print('#5 : Liste des clubs avec les joueurs associés.');
@@ -51,10 +51,10 @@ differenceDates(today, anotherDay);
     print('Liste des clubs : $clubsName');
     print('Liste des clubs associés aux joueurs : ${playersClubs(playersName, clubsName)}');
     print("");
-  }
-
- }
+ 
 }
+
+ 
 
 	
   
