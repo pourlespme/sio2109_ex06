@@ -2,13 +2,13 @@ ex06
 
 13/20
 
+utiliser les types spécifiques pour les paramètres de fonctions
+
 -1
 .gitignore manquant
 
 -1
 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
-
-utiliser les types spécifiques pour les paramètres de fonctions
 
 -2
 pas de lib
