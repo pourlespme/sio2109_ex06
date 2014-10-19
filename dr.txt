@@ -1,5 +1,46 @@
 ex06
 
+13/20
+
+-1
+.gitignore manquant
+
+-1
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+
+utiliser les types spécifiques pour les paramètres de fonctions
+
+-2
+pas de lib
+
+-2
+6.4
+Breaking on exception: object of type NoSuchMethodError
+couleur rouge
+//No. 4  //Je ne trouve pas mon erreur pour les lignes 37 et 50... 
+
+notation(num note) {
+  var lettre = "";
+  if (note >= 95) {
+    return lettre += "A+";
+  } else if (note <= 95 && note > 91.49) {
+    return lettre += "A";
+  ...
+  } else if (note <= 60 && note > 0) {
+    return lettre += "E";
+  }
+//} manquant
+
+-1
+6.5
+Prepare two LISTS, one with the names of players and their clubs, 
+and the other with the names of clubs. Make the third LIST with clubs ordered 
+by their names, where each club is followed by its list of players.
+Map playersClubs(List playersName, List clubsName) {
+Map ?
+
+---
+
 ?/20
 
 s'il vous plaît utiliser le fichier pubspec.yaml
